@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+
+  <h1>An Image Gallery</h1>
+  <p>Below is an image gallery where you can explore a collection of images. Browse through the pictures below to view different photos and visuals. Click on any image to see it more clearly and enjoy the full view of the gallery.</p>
+ </header><hr>
+
+
+<section class="gallery-section">
+<h2>Gallaries with captions...</h2> 
+
+<div class="gallery">
+ 
+<div class="image" data-category="beautiful">
+ <img src="./images/ajeet-mestry-UBhpOIHnazM-unsplash.jpg" alt="randomImage">
+ <span>Old School TV</span>
+</div>
+
+<div class="image"  data-category="creative">
+ <img src="./images/austin-chan-ukzHlkoz1IE-unsplash.jpg" alt="randomImage">
+ <span>Writing On The Wall</span>
+</div>
+
+<div class="image" data-category="cool">
+ <img src="./images/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="randomImage">
+<span>Do Something Great</span>
+</div>
+
+<div class="image" data-category="awesome">
+ <img src="./images/david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="randomImage">
+ <span>Plane In The Forest</span>
+</div>
+
+<div class="image" data-category="beautiful">
+ <img src="./images/davisuko-5E5N49RWtbA-unsplash.jpg" alt="randomImage">
+ <span>Blue Orange</span>
+ </div>
+
+ <div class="image" data-category="creative">
+ <img src="./images/diego-ph-fIq0tET6llw-unsplash.jpg" alt="randomImage">
+ <span>Light Bulb</span>
+ </div>
+
+ <div class="image" data-category="cool">
+ <img src="./images/ian-dooley-hpTH5b6mo2s-unsplash.jpg" alt="randomImage">
+ <span>Hot Air Balloons</span>
+ </div>
+
+ <div class="image"  data-category="awesome">
+ <img src="./images/tirza-van-dijk-cNGUw-CEsp0-unsplash.jpg" alt="randomImage">
+ <span>Flower</span>
+ </div>
+
+<div id="lightbox">
+  <span id="close">&times;</span>
+  <img id="lightbox-img">
+</div>
+
+ </div>
+
+</section>
+
+<section class="tags">
+<h2>...and with tags</h2>
+
+<div class="tag-buttons">
+<button class="active" data-filter="all">All</button>
+<button data-filter="beautiful">Beautiful</button>
+<button data-filter="creative">Creative</button>
+<button data-filter="cool">Cool</button>
+<button data-filter="awesome">Awesome</button>
+</div>
+
+ 
+</section>
+<script src="script.js"></script>
+</body>
+</html>
